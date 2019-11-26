@@ -7,6 +7,7 @@ namespace MyCode
 {
   class Program
   {
+    // inspiration from https://docs.microsoft.com/en-us/visualstudio/ide/reference/generate-equals-gethashcode-methods?view=vs-2019
     public static void Main()
     {
       Console.WriteLine("program starting...");

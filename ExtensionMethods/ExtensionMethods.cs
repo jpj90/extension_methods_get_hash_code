@@ -14,8 +14,8 @@ namespace ExtensionMethods
         excludeProperties.ForEach(prop => props.Remove(prop));
 
       var hashCode = 549824788;
-      props.ForEach(prop => hashCode = hashCode * -1521134295 + prop.GetValue(self).GetHashCode());
-      return hashCode > 0 ? hashCode : hashCode * -1;
+      props.ForEach(prop => hashCode = hashCode * 1521134295 + prop.GetValue(self).GetHashCode());
+      return hashCode;
     }
   }
 

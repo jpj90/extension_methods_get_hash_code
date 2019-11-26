@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Reflection;
-using ExtensionMethodsX;
+using ExtensionMethods;
 
-namespace ExtensionMethods
+namespace MyCode
 {
   class Program
   {

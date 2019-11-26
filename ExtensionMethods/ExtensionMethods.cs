@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Reflection;
 
-namespace ExtensionMethodsX
+namespace ExtensionMethods
 {
   public static class MyExtensions
   {

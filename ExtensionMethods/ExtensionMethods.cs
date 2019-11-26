@@ -6,12 +6,6 @@ namespace ExtensionMethods
 {
   public static class MyExtensions
   {
-
-    //public static bool EqualsX(this object self, dynamic obj, List<PropertyInfo> excludeProperties)
-    //{
-    //  return self.GetHashCodeX(excludeProperties) == obj.GetHashCodeX(excludeProperties);
-    //}
-
     public static int GetHashCode(this object self, List<PropertyInfo> excludeProperties)
     {
       List<PropertyInfo> props = new List<PropertyInfo>(self.GetType().GetProperties());
